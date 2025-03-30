@@ -1,0 +1,46 @@
+.wellDoneLabel {
+    font-size: 80px;
+    -unity-font-style: normal;
+    background-color: rgb(204, 204, 204);
+    width: 600px;
+    height: 200px;
+    -unity-text-align: middle-center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/AllertaStencil-Regular.ttf?fileID=12800000&guid=1b2e413b063855c4288d99223a9b1c5f&type=3#AllertaStencil-Regular");
+}
+
+.newGameButton {
+    font-size: 48px;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    white-space: nowrap;
+    color: rgb(204, 204, 204);
+    background-color: rgba(0, 0, 0, 0);
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/AllertaStencil-Regular.ttf?fileID=12800000&guid=1b2e413b063855c4288d99223a9b1c5f&type=3#AllertaStencil-Regular");
+}
+
+.newGameButton:hover {
+    background-image: url("project://database/Assets/Sprites/Miscellaneous/rect%20100x100%20white%20alpha-20-0.png?fileID=2800000&guid=337db27389f5cee42a23c5e90837d9e8&type=3#rect 100x100 white alpha-20-0");
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.06);
+}
+
+.mmNewGameButton {
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.lNewGameButton {
+    width: 300px;
+    height: 80px;
+}
+
+.gfNewGameButton {
+    background-color: rgb(32, 32, 32);
+}
